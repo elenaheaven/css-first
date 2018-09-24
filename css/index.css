@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+:root {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+* {
+    color: red;
+}
+
+#chosen {
+    color: #557af4;
+}
+
+.brown {
+    color: #562504;
+}
+
+h1, p {
+    background-color: grey;
+}
+
+div p {
+    background-color: red;
+}
+
+div > p {
+    background-color: yellow;
+}
+
+div + p {
+    border: 5px solid green;
+}
+
+div ~ p {
+    font-style: italic
+}
+
+p:hover {
+    font-weight: bold;
+}
+
+/*p::first-letter {*/
+/*    font-size: 3rem*/
+/*}*/
+
+p::before {
+    content: '<';
+}
+
+p::after {
+    content: '>';
+}
